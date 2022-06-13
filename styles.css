@@ -107,7 +107,7 @@ p {
 
 @media (max-width:600px) {
     h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
     h2 {
         font-size: 38px;
@@ -135,5 +135,14 @@ p {
     }
     .h3-about {
         margin-top: 15px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .h2-contact {
+        font-size: 30px;
+    }
+    .email-link {
+        font-size: 25px;
     }
 }
