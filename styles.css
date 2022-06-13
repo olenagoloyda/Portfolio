@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 28px;
     opacity: 0.7;
 }
 
@@ -103,4 +103,37 @@ p {
 .about-img {
     border: 5px solid white;
     box-shadow: var(--box-shadow);
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 18px;
+        opacity: 0.7;
+    }
+    .project-photo {
+        display: none;
+    }
+    .launch-button {
+        display: block;
+        margin: o auto;
+        text-align: center;
+    }
+    .projects-names {
+        text-align: center;
+    }
+    .borders {
+        padding: 20px;
+        border: 2px solid rgba(197, 214, 247, 0.795);
+        border-radius: 5px;
+        box-shadow: var(--box-shadow);
+    }
+    .h3-about {
+        margin-top: 15px;
+    }
 }
